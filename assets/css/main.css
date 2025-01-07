@@ -1,0 +1,12 @@
+body {
+  background-color: #F5F5F5;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  /* font-family: 'Be Vietnam Pro'; */
+  font-size: 16px;
+  margin: 0; /* Loại bỏ khoảng cách mặc định */
+  overflow-x: hidden; /* Ẩn thanh cuộn ngang */
+}
+.required:after {
+  content: " *";
+  color: var(--p-red-400);
+}
